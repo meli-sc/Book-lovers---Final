@@ -1,0 +1,70 @@
+
+.fondo {
+    background-image: url(/img/8fefe76a14c7163afd417d57e3624271.jpg¿);
+
+    .hero {
+        background-image: url(../img/foto-fondo.jpg);
+        height: 70vh;
+
+        .animacionTitulo {
+            -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+            animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+
+          @-webkit-keyframes slide-top {
+            0% {
+              -webkit-transform: translateY(0);
+              transform: translateY(0); }
+            100% {
+              -webkit-transform: translateY(-100px);
+              transform: translateY(-100px); } }
+
+          @keyframes slide-top {
+            0% {
+              -webkit-transform: translateY(0);
+              transform: translateY(0); }
+            100% {
+              -webkit-transform: translateY(-100px);
+              transform: translateY(-100px); } }
+
+
+        .bgTextoPrincipal {
+            // background-color: rgba(0, 0, 0, 0.404);
+            padding: 2px;
+            color: white;
+            border-radius: 2px; }
+
+
+            .animacionSubTitulo {
+                -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
+                animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both; }
+
+              @-webkit-keyframes slide-top {
+                0% {
+                  -webkit-transform: translateY(0);
+                  transform: translateY(0); }
+                100% {
+                  -webkit-transform: translateY(-100px);
+                  transform: translateY(-100px); } }
+
+              @keyframes slide-top {
+                0% {
+                  -webkit-transform: translateY(0);
+                  transform: translateY(0); }
+                100% {
+                  -webkit-transform: translateY(-100px);
+                  transform: translateY(-100px); } }
+                  
+                  
+                  .logo-ppal{
+                    color: aqua;
+                    font-family: 'Rock Salt', cursive;
+                  }
+
+                  .scale-up-center{animation:scale-up-center 10s cubic-bezier(.39,.575,.565,1.000) infinite alternate-reverse both}
+
+
+
+ @keyframes scale-up-center{0%{transform:scale(.8)}100%{transform:scale(1.3)}}
+}
+    
+}

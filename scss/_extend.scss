@@ -1,0 +1,8 @@
+.tarjetas{
+    width: 100px;
+    
+}
+
+.fotos{
+    @extend .tarjetas;
+}

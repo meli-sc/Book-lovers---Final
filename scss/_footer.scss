@@ -1,0 +1,34 @@
+footer {
+    width: 100%;
+    background-color:$mainColor;
+    height: $margen/2;
+    margin-top: $margen/20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .anchoFooter {
+        margin-top: $margen/20; }
+
+        .redes {
+            display: inline-block; 
+        
+            .bi-facebook {
+              @include redes ($fb);
+              
+            }
+              
+              .bi-whatsapp {
+                @include redes ($wp);
+             
+              }
+              
+              .bi-instagram {
+                @include redes ($insta);
+             
+              }
+      
+            }
+}
+  

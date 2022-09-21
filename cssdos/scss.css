@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-moz-selection {
+  color: rgb(121, 247, 247);
+}
+
+::selection {
+  color: rgb(121, 247, 247);
+}
+
+.bg-meli {
+  background-color: rgb(121, 247, 247);
+}
+
+.fondo {
+  background-image: url(../img/8fefe76a14c7163afd417d57e3624271.jpg);
+}
+.fondo .hero {
+  background-image: url(/img/imagen-index.jpg);
+  height: 100vh;
+}
+.fondo .hero .animacionTitulo {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@-webkit-keyframes slide-top {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+.fondo .hero .bgTextoPrincipal {
+  background-color: rgba(0, 0, 0, 0.404);
+  padding: 2px;
+  color: white;
+  border-radius: 2px;
+}
+.fondo .hero .animacionSubTitulo {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
+}
+@-webkit-keyframes slide-top {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(121, 247, 247);
+  height: 100px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .anchoFooter {
+  margin-top: 10px;
+}
+footer .redes {
+  display: inline-block;
+}
+footer .redes .bi-facebook {
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #010101;
+}
+footer .redes .bi-facebook:hover {
+  color: #3b5998;
+}
+footer .redes .bi-whatsapp {
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #010101;
+}
+footer .redes .bi-whatsapp:hover {
+  color: #25D366;
+}
+footer .redes .bi-instagram {
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #010101;
+}
+footer .redes .bi-instagram:hover {
+  color: #8a3ab9;
+}
+
+@media (max-width: 576px) {
+  .mt-mobile {
+    margin-top: 2rem;
+  }
+}/*# sourceMappingURL=scss.css.map */
