@@ -11,47 +11,67 @@
     background-image: url(../img/foto-fondo.jpg);
     height: 70vh; }
     .fondo .hero .animacionTitulo {
-      -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-      animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+      -webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+      animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both; }
 
-@-webkit-keyframes slide-top {
+@-webkit-keyframes tracking-in-expand-fwd {
   0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0); }
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
   100% {
-    -webkit-transform: translateY(-100px);
-    transform: translateY(-100px); } }
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1; } }
 
-@keyframes slide-top {
+@keyframes tracking-in-expand-fwd {
   0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0); }
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
   100% {
-    -webkit-transform: translateY(-100px);
-    transform: translateY(-100px); } }
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1; } }
     .fondo .hero .bgTextoPrincipal {
       padding: 2px;
       color: white;
       border-radius: 2px; }
     .fondo .hero .animacionSubTitulo {
-      -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both;
-      animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.5s both; }
+      -webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 1s both;
+      animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 1s both; }
 
-@-webkit-keyframes slide-top {
+@-webkit-keyframes tracking-in-expand-fwd {
   0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0); }
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
   100% {
-    -webkit-transform: translateY(-100px);
-    transform: translateY(-100px); } }
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1; } }
 
-@keyframes slide-top {
+@keyframes tracking-in-expand-fwd {
   0% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0); }
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0; }
+  40% {
+    opacity: 0.6; }
   100% {
-    -webkit-transform: translateY(-100px);
-    transform: translateY(-100px); } }
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1; } }
     .fondo .hero .logo-ppal {
       color: aqua;
       font-family: 'Rock Salt', cursive; }
