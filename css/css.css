@@ -111,9 +111,9 @@ footer {
 
 @media (max-width: 767.98px) {
   .header {
-    z-index: 1; }
+    z-index: 15; }
   .mtop {
-    margin-top: 10rem; }
+    margin-top: 5rem; }
   .mbot {
     margin-bottom: 10rem; } }
 
@@ -121,7 +121,7 @@ footer {
   .header {
     z-index: 1; }
   .mtop {
-    margin-top: 10rem; }
+    margin-top: 15rem; }
   .mbot {
     margin-bottom: 10rem; } }
 
@@ -129,13 +129,13 @@ footer {
   .header {
     z-index: 1; }
   .mtop {
-    margin-top: 10rem; }
+    margin-top: 15rem; }
   .mbot {
-    margin-bottom: 10rem; } }
+    margin-bottom: 12rem; } }
 
 @media (max-width: 1399.98px) {
   .mtop {
-    margin-top: 8rem; } }
+    margin-top: 15rem; } }
 
 .bg-meli {
   background-color: #79f7f7; }
