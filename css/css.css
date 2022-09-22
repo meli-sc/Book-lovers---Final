@@ -103,6 +103,40 @@ footer {
   .mt-mobile {
     margin-top: 2rem; } }
 
+@media (max-width: 575.98px) {
+  .header {
+    z-index: 5; }
+  .mtop {
+    margin-top: 15rem; } }
+
+@media (max-width: 767.98px) {
+  .header {
+    z-index: 1; }
+  .mtop {
+    margin-top: 10rem; }
+  .mbot {
+    margin-bottom: 10rem; } }
+
+@media (max-width: 991.98px) {
+  .header {
+    z-index: 1; }
+  .mtop {
+    margin-top: 10rem; }
+  .mbot {
+    margin-bottom: 10rem; } }
+
+@media (max-width: 1199.98px) {
+  .header {
+    z-index: 1; }
+  .mtop {
+    margin-top: 10rem; }
+  .mbot {
+    margin-bottom: 10rem; } }
+
+@media (max-width: 1399.98px) {
+  .mtop {
+    margin-top: 8rem; } }
+
 .bg-meli {
   background-color: #79f7f7; }
 
