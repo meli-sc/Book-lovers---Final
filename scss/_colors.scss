@@ -1,12 +1,12 @@
 .bg-meli{
-    background-color: #79f7f7;
+    background-color: $mainColor;
 }
 
 $mapa: (
     colorfondo1: #e9ebd8,
     colorfondo2: #e378a5,
     colorfondo3: #269c9e,
-    colorfondo4: #79f7f7
+    colorfondo4: $mainColor
 );
 
 @each $colorfondo, $color in $mapa {

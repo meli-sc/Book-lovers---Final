@@ -11,11 +11,15 @@
   z-index: 5;
   
 }
-.mtop{
-  margin-top: 15rem;
+.logo-media{
+  font-size: 35px;
+}
+}
+.alto-icono{
+  height: 10vh;
 }
 
-}
+
 
 // `md` applies to small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) { 
@@ -23,13 +27,12 @@
     z-index: 15;
     
   }
-  .mtop{
-    margin-top: 5rem;
+  .logo-media{
+    font-size: 35px;
   }
-  .mbot{
-    margin-bottom: 10rem;
-  }
-  
+  .alto-icono{
+    height: 10vh;
+}
 
   
 }
@@ -39,11 +42,11 @@
   z-index: 1;
   
 }
-.mtop{
-  margin-top: 15rem;
+.logo-media{
+  font-size: 35px;
 }
-.mbot{
-  margin-bottom: 10rem;
+.alto-icono{
+  height: 10vh;
 }
 }
 
@@ -52,12 +55,12 @@
   .header{
     z-index: 1;
     
-  }.mtop{
-    margin-top: 15rem;
-  }
-  .mbot{
-    margin-bottom: 12rem;
-  }
+    .logo-media{
+      font-size: 35px;
+    }
+  .alto-icono{
+    height: 25vh;
+}
   }
 
 
@@ -67,8 +70,11 @@
 //   z-index: 1;
   
 // }
-.mtop{
-  margin-top: 15rem;
+.logo-media{
+  font-size: 35px;
 }
+.alto-icono{
+  height: 15vh;
 }
+}}
   

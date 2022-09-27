@@ -8,27 +8,19 @@ footer {
     align-items: center;
     flex-direction: column;
 
-    .anchoFooter {
+    .ancho-footer {
         margin-top: $margen/20; }
-
         .redes {
             display: inline-block; 
-        
-            .bi-facebook {
+                    .bi-facebook {
               @include redes ($fb);
-              
-            }
-              
-              .bi-whatsapp {
+                }
+                .bi-whatsapp {
                 @include redes ($wp);
-             
-              }
-              
-              .bi-instagram {
+                }
+               .bi-instagram {
                 @include redes ($insta);
-             
-              }
-      
+             }
             }
 }
   

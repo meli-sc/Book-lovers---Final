@@ -14,9 +14,7 @@
         }
 
  @mixin background-query($background,$vista) {
-    
-     body{
-
+         body{
          @if $vista == desktop {
              @media only screen and (max-width: 1024px){
                 background-color: $background;
