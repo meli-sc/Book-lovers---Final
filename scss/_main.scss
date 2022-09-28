@@ -1,10 +1,7 @@
-
-
-
-    .hero {
+ .hero {
         background-image: url(../img/foto-fondo.jpg);
-        height: 70vh;
-        // background-repeat: no-repeat;
+        height: 60vh;
+        background-repeat: no-repeat;
 
         .animacionTitulo {
           -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.3s both;
@@ -41,7 +38,6 @@
 // texto principal
 
         .bgTextoPrincipal {
-            // background-color: rgba(0, 0, 0, 0.404);
             padding: 2px;
             color: white;
             border-radius: 2px; }
@@ -110,4 +106,6 @@ opacity: 0;
 -webkit-filter: blur(0px);
         filter: blur(0px);
 opacity: 1;
-}}}
+}
+}
+}
