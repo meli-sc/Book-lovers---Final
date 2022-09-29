@@ -1,6 +1,8 @@
  .hero {
-        background-image: url(../img/foto-fondo.jpg);
+        background-image: url(../img/fondo-fondo.jpg);
         height: 60vh;
+        width: 100vw;
+        background-size: cover;
         background-repeat: no-repeat;
 
         .animacionTitulo {

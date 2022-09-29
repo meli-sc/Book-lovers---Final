@@ -5,8 +5,10 @@
   box-sizing: border-box; }
 
 .hero {
-  background-image: url(../img/foto-fondo.jpg);
+  background-image: url(../img/fondo-fondo.jpg);
   height: 60vh;
+  width: 100vw;
+  background-size: cover;
   background-repeat: no-repeat; }
   .hero .animacionTitulo {
     -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 0.3s both;
@@ -126,31 +128,57 @@ footer {
   .logo-media {
     font-size: 35px; }
   .alto-icono {
-    height: 10vh; } }
+    height: 15vh;
+    width: 15vh; }
+  .img-card {
+    height: 25vh; } }
 
 @media (max-width: 767.98px) {
   .logo-media {
     font-size: 35px; }
   .alto-icono {
-    height: 10vh; } }
+    height: 15vh;
+    width: 15vh; }
+  .img-card {
+    height: 25vh; } }
 
 @media (max-width: 991.98px) {
   .logo-media {
     font-size: 35px; }
   .alto-icono {
-    height: 10vh; } }
+    height: 15vh;
+    width: 15vh; }
+  .img-card {
+    height: 25vh; } }
 
 @media (max-width: 1199.98px) {
   .logo-media {
     font-size: 35px; }
   .alto-icono {
+    height: 15vh;
+    width: 15vh; }
+  .img-card {
     height: 25vh; } }
 
 @media (max-width: 1399.98px) {
   .logo-media {
     font-size: 40px; }
   .alto-icono {
-    height: 15vh; } }
+    height: 15vh;
+    width: 15vh; }
+  .logo-libro {
+    height: 6; }
+  .img-card {
+    height: 25rem; } }
+
+@media (max-width: 2000px) {
+  .logo-media {
+    font-size: 40px; }
+  .alto-icono {
+    height: 15vh;
+    width: 15vh; }
+  .logo-libro {
+    height: 6; } }
 
 .bg-meli {
   background-color: #79f7f7; }
