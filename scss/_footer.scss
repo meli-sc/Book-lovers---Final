@@ -3,11 +3,7 @@ footer {
     background-color:$mainColor;
     height: $margen/2;
     margin-top: $margen/20;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
+    
     .ancho-footer {
         margin-top: $margen/20; }
         .redes {
